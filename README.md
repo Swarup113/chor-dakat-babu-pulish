@@ -4,6 +4,10 @@ A 4-player guessing game with rotating roles and point-based scoring.
 ## Game Overview
 A fun pass-and-play party game where 4 players take on secret roles each round. The goal? The Pulish (Police) must identify the culprit while others try to evade capture!
 
+## Live Demo
+The application is hosted on HuggingFace Spaces:
+**[https://huggingface.co/spaces/dewanjee/NeuroTab](https://swarup113.github.io/chor-dakat-babu-pulish/)**
+
 ## Roles
 | Role | Description |
 |------|-------------|
