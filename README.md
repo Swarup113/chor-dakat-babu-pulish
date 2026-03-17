@@ -5,10 +5,12 @@ A 4-player guessing game with rotating roles and point-based scoring.
 A fun pass-and-play party game where 4 players take on secret roles each round. The goal? The Pulish (Police) must identify the culprit while others try to evade capture!
 
 ## Roles
-- Babu	Immune player - always earns 100 points
-- Pulish	The guesser - must find the culprit
-- Chor	Thief - target in Chor rounds
-- Dakat	Bandit - target in Dakat rounds
+| Role | Description |
+|------|-------------|
+| **Babu** | Immune player - always earns 100 points |
+| **Pulish** | The guesser - must find the culprit |
+| **Chor** | Thief - target in Chor rounds |
+| **Dakat** | Bandit - target in Dakat rounds |
 
 ## Rules
 Round Types
@@ -17,12 +19,16 @@ Round Types
 - Rounds alternate for 10 total rounds
 
 ## Scoring
-- Babu	Always 100 points
-- Pulish (correct guess)	80 points
-- Pulish (wrong guess)	0 points
-- Target Culprit (caught)	0 points
-- Target Culprit (escapes)	Chor: 40 / Dakat: 60
-- Non-target Culprit	Chor: 40 / Dakat: 60 (immune)
+| Player | Points Earned |
+|--------|---------------|
+| Babu | Always 100 points |
+| Pulish (correct guess) | 80 points |
+| Pulish (wrong guess) | 0 points |
+| Target Culprit (caught) | 0 points |
+| Target Culprit (escapes) | Chor: 40 / Dakat: 60 |
+| Non-target Culprit | Chor: 40 / Dakat: 60 (immune) |
+
+
 
 ## How to Play
 - Enter player names (or use defaults)
