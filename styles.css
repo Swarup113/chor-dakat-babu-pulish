@@ -5,12 +5,12 @@
     --bg-card: #1a1a1a;
     --bg-hover: #242424;
     --bg-input: #0f0f0f;
-    --accent-green: #2e6b5a; 
-    --accent-green-dark: #1e4a3d;
+    --accent-green: #4ade80; 
+    --accent-green-dark: #3fc16f;
     --accent-red: #8b2525;
     --accent-red-dark: #691212;
-    --accent-purple: #d4b820;
-    --accent-purple-dark: #b09a18;
+    --accent-purple: #60a5fa;
+    --accent-purple-dark: #407dc8;
     --accent-yellow: #f59e0b;
     --text-primary: #ffffff;
     --text-secondary: #a1a1aa;
@@ -152,7 +152,7 @@ body {
 
 .btn-secondary {
     background: var(--accent-purple);
-    color: #1a1a1a;
+    color: #ffffff;
 }
 
 .btn-secondary:hover {
