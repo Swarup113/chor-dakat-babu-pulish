@@ -165,9 +165,17 @@
     </div>
 
     <!-- Footer -->
+
     <footer class="footer">
-        Made with care by <a href="https://github.com/Swarup113" target="_blank" class="author-link">Swarup Dewanjee</a>
+      <p>
+        <b>©</b> <span id="year"></span> 
+        <a href="https://github.com/Swarup113" class="author-link" target="_blank" rel="noopener noreferrer">Swarup Dewanjee</a>
+      </p>
     </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
     <!-- Role Reveal Modal -->
     <div id="role-modal" class="modal">

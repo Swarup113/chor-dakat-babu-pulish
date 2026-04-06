@@ -652,17 +652,21 @@ td:not(:first-child) {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--bg-secondary);
-    border-top: 1px solid var(--border-color);
+    background: var(--bg-secondary, #f8f9fa); /* Fallback color if variable is missing */
+    border-top: 1px solid var(--border-color, #e7e7e7);
     padding: 10px 12px;
     text-align: center;
     font-size: 0.75rem;
-    color: var(--text-secondary);
+    color: var(--text-secondary, #666);
     z-index: 100;
 }
 
+.footer p {
+    margin: 0; /* Removes default paragraph spacing */
+}
+
 .author-link {
-    color: var(--accent-green);
+    color: var(--accent-green, #4ade80); /* Matches your "BABU" green */
     text-decoration: none;
     font-weight: 600;
     transition: opacity 0.15s ease;
@@ -671,6 +675,10 @@ td:not(:first-child) {
 .author-link:hover {
     opacity: 0.8;
     text-decoration: underline;
+}
+
+.author-link:visited {
+    color: var(--accent-green, #4ade80);
 }
 
 /* ===== RESPONSIVE - TABLET & DESKTOP ===== */
